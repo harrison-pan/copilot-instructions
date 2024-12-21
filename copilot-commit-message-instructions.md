@@ -2,7 +2,7 @@
 
 ### Format Rules
 
-- Start with type: feat|fix|docs|style|refactor|test|chore
+- Start with type: feat|fix|docs|style|refactor|test|chore|build
 - Use imperative mood ("add" not "added")
 - Limit first line to 50 characters
 - Add blank line after subject
@@ -19,6 +19,7 @@
 - refactor: Code restructuring
 - test: Adding/updating tests
 - chore: Maintenance tasks
+- build: Changes that affect the build system or external dependencies (example scopes: maven, gulp, broccoli, npm)
 
 ### Examples
 
