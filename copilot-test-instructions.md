@@ -9,6 +9,12 @@
 - Implement parameterized tests where applicable
 - Coverage: unit, integration, mock with Mockito
 - Use `@SpringBootTest` for integration tests
+- With Spring MVC, we can query our web endpoints using `MockMvc`. Three integrations are available:
+1. The regular `MockMvc` that uses Hamcrest.
+2. `MockMvcTester` that wraps `MockMvc` and uses AssertJ
+3. `WebTestClient` where `MockMvc` is plugged in as the server to handle requests with.
+- Consider using `MockMvcTester` instead of `MockMvc` if `spring-boot-starter-test` is a dependency.
+
 
 ## JavaScript/TypeScript
 

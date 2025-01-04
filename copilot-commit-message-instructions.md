@@ -2,6 +2,7 @@
 
 ### Format Rules
 
+- Use conventional commit message format.
 - Start with type: feat|fix|docs|style|refactor|test|chore|build
 - Use imperative mood ("add" not "added")
 - Limit first line to 50 characters
